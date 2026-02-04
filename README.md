@@ -20,7 +20,7 @@ A modern, interactive, and responsive CV website built with HTML, CSS, and JavaS
    - Go to [github.com](https://github.com)
    - Click the "+" icon in the top right corner
    - Select "New repository"
-   - Name it: `your-username.github.io` (replace `your-username` with your GitHub username)
+   - Name it: `misrak.github.io` (replace `misrak` with your GitHub username)
    - Make it public
    - Click "Create repository"
 
@@ -39,7 +39,7 @@ A modern, interactive, and responsive CV website built with HTML, CSS, and JavaS
    - Click "Save"
 
 4. **Visit your site**
-   - Your site will be live at: `https://your-username.github.io`
+   - Your site will be live at: `misrak.github.io`
    - It may take a few minutes to go live
 
 ### Method 2: Using Git Command Line
