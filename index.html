@@ -4,384 +4,375 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaalindi Ashok Misra - CV</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Kaalindi Misra</div>
-            <div class="nav-links">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#education" class="nav-link">Education</a>
-                <a href="#publications" class="nav-link">Publications</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#contact" class="nav-link">Contact</a>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="name">Kaalindi Ashok Misra</h1>
+            <div class="contact-info">
+                <span class="contact-item">📧 <a href="mailto:misra.kaalindi@hsr.it">misra.kaalindi@hsr.it</a></span>
+                <span class="separator">|</span>
+                <span class="contact-item">📞 022 643 6229</span>
+                <span class="separator">|</span>
+                <span class="contact-item">📍 Milan, Italy</span>
             </div>
-            <button class="mobile-menu-btn">☰</button>
-        </div>
-    </nav>
+            <div class="subtitle">
+                Bioinformatics Expert • Project Manager • PhD in Molecular Medicine
+            </div>
+        </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title fade-in">Kaalindi Ashok Misra</h1>
-                <p class="hero-subtitle fade-in-delay">Bioinformatics Expert | Project Manager | PhD in Molecular Medicine</p>
-                <div class="hero-buttons fade-in-delay-2">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                    <a href="#publications" class="btn btn-secondary">View Publications</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- Professional Summary -->
+        <section class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p class="summary-text">
+                Highly skilled bioinformatics professional with extensive experience in next-generation sequencing, computational pipeline development, and scientific project management. Currently serving as Project Manager for Scientific Projects at San Raffaele Hospital, specializing in managing complex European-funded initiatives and coordinating multidisciplinary research teams. Expertise in automated NGS pipelines, variant interpretation, and data management with a proven track record of handling 200+ samples and developing innovative bioinformatics solutions.
+            </p>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p>I am a highly skilled bioinformatics professional with extensive experience in next-generation sequencing, computational pipeline development, and scientific project management. Currently serving as Project Manager for Scientific Projects at San Raffaele Hospital, I specialize in managing complex European-funded initiatives and coordinating multidisciplinary research teams.</p>
-                <p>My expertise spans automated NGS pipelines, variant interpretation, and data management, with a proven track record of handling over 200 samples and developing innovative bioinformatics solutions.</p>
-            </div>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">200+</div>
-                    <div class="stat-label">Samples Processed</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Publications</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">8+</div>
-                    <div class="stat-label">Years Experience</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">PhD</div>
-                    <div class="stat-label">Molecular Medicine</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="section section-alt">
-        <div class="container">
+        <!-- Professional Experience -->
+        <section class="section">
             <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2025 - Present</div>
-                        <h3>Project Manager – Scientific Projects</h3>
-                        <h4>Cystic Kidney Disorders Unit, San Raffaele Hospital, Milan, Italy</h4>
-                        <ul>
-                            <li>Managed scientific initiatives including 1 European-funded project, Cilia2027 international conference, and an Italian national consortium</li>
-                            <li>Coordinated multidisciplinary teams across institutions and international partners</li>
-                            <li>Planned timelines, milestones, and deliverables in line with funding and institutional requirements</li>
-                            <li>Served as main liaison between researchers and administrative stakeholders</li>
-                        </ul>
-                    </div>
+            
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3 class="job-title">Project Manager – Scientific Projects</h3>
+                    <span class="date">2025 – Present</span>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2022 - 2025</div>
-                        <h3>Junior Post Doctorate Fellow</h3>
-                        <h4>Human Genetics of Neurological Disorders Unit, San Raffaele Hospital, Milan, Italy</h4>
-                        <ul>
-                            <li>Automated next-generation sequencing pipelines using Snakemake (WES, WGS, RNASeq, miRNA-Seq, Single-Cell Seq)</li>
-                            <li>Implemented source version control using git and Bitbucket</li>
-                            <li>Created clinical database for laboratory usage</li>
-                            <li>Handled variant interpretation and classification projects (200+ samples)</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2018 - 2022</div>
-                        <h3>Early Stage Researcher (Marie Skłodowska-Curie Fellow)</h3>
-                        <h4>University Vita-Salute San Raffaele, Milan, Italy</h4>
-                        <ul>
-                            <li>PhD Title: "Identification of genetic variants contributing to pain-related symptoms in familial and sporadic patients affected by peripheral neuropathy"</li>
-                            <li>Developed Perl/Python/R/Shell scripts for NGS pipeline automation</li>
-                            <li>Created structural variation pipeline using Snakemake</li>
-                            <li>Performed variant interpretation according to ACMG Guidelines on 150 neurological samples</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2016 - 2018</div>
-                        <h3>Bioinformatics Analyst</h3>
-                        <h4>MedGenome Private Limited, Bengaluru, India</h4>
-                        <ul>
-                            <li>Automated NGS pipelines with Perl/R/Python/Shell scripts</li>
-                            <li>Implemented source version control and Jenkins</li>
-                            <li>Created R Shiny dashboards for clinical data visualization</li>
-                            <li>Led team of 3 people, responsible for issue tracking and work assignment</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2012 - 2014</div>
-                        <h3>Business Development Manager</h3>
-                        <h4>IVF Craft Clinic, Mumbai, India</h4>
-                        <ul>
-                            <li>Built client relationships and delivered presentations</li>
-                            <li>Managed team to pursue growth opportunities overseas</li>
-                            <li>Assisted with assisted reproductive technologies (ART)</li>
-                        </ul>
-                    </div>
-                </div>
+                <div class="institution">Cystic Kidney Disorders Unit, San Raffaele Hospital, Milan, Italy</div>
+                <ul class="details">
+                    <li>Managed scientific initiatives including 1 European-funded project, Cilia2027 international conference, and an Italian national consortium</li>
+                    <li>Coordinated multidisciplinary teams across institutions and international partners</li>
+                    <li>Planned timelines, milestones, and deliverables in line with funding and institutional requirements</li>
+                    <li>Served as main liaison between researchers and administrative stakeholders</li>
+                    <li>Oversaw reporting, documentation, and progress tracking</li>
+                </ul>
             </div>
-        </div>
-    </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section">
-        <div class="container">
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3 class="job-title">Junior Post Doctorate Fellow</h3>
+                    <span class="date">2022 – 2025</span>
+                </div>
+                <div class="institution">Human Genetics of Neurological Disorders Unit, San Raffaele Hospital, Milan, Italy</div>
+                <ul class="details">
+                    <li>Automated next-generation sequencing pipelines using Snakemake including Whole Exome, Whole Genome, RNASeq, miRNA-Seq, and Single-Cell Seq analysis</li>
+                    <li>Independent and paired development on bugs and features of pipeline workflow systems</li>
+                    <li>Created clinical database for laboratory usage and implemented source version control using Git and Bitbucket</li>
+                    <li>Handled variant interpretation and classification projects, processing more than 200 samples</li>
+                    <li>Provided comprehensive bioinformatics support to research teams</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3 class="job-title">Early Stage Researcher (Marie Skłodowska-Curie Fellow)</h3>
+                    <span class="date">2018 – 2022</span>
+                </div>
+                <div class="institution">University Vita-Salute San Raffaele, Milan, Italy</div>
+                <div class="advisor">Supervisor: Dr. Federica Esposito</div>
+                <ul class="details">
+                    <li>PhD Title: "Identification of genetic variants contributing to pain-related symptoms in familial and sporadic patients affected by peripheral neuropathy"</li>
+                    <li>Developed Perl/Python/R/Shell scripts to automate next-generation sequencing pipelines</li>
+                    <li>Created structural variation pipeline using Snakemake workflow management system</li>
+                    <li>Performed variant interpretation and classification according to ACMG Guidelines on 150 neurological samples</li>
+                    <li>Created web survey page using LimeSurvey tool for clinical data collection</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3 class="job-title">Bioinformatics Analyst</h3>
+                    <span class="date">2016 – 2018</span>
+                </div>
+                <div class="institution">MedGenome Private Limited, Bengaluru, India</div>
+                <ul class="details">
+                    <li>Developed and maintained automated NGS pipelines using Perl, R, Python, and Shell scripts</li>
+                    <li>Implemented source version control and Jenkins for continuous integration</li>
+                    <li>Created interactive dashboards in R Shiny for clinical data visualization</li>
+                    <li>Led team of 3 people, responsible for issue tracking and work assignment</li>
+                    <li>Expertise in regression testing, smoke testing, user acceptance testing, and performance testing</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3 class="job-title">Business Development Manager</h3>
+                    <span class="date">2012 – 2014</span>
+                </div>
+                <div class="institution">IVF Craft Clinic, Mumbai, India</div>
+                <ul class="details">
+                    <li>Built client relationships and delivered presentations on assisted reproductive technologies</li>
+                    <li>Managed team to explore and actively pursue growth opportunities overseas</li>
+                    <li>Assisted embryologist in performing assisted reproductive technologies (ART) to help with infertility</li>
+                    <li>Maintained compliance with quality control, ethical issues, and regulations surrounding gamete and embryo handling</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h3 class="job-title">Research Intern</h3>
+                    <span class="date">Summer 2009</span>
+                </div>
+                <div class="institution">Oregon State University, Corvallis, USA</div>
+                <ul class="details">
+                    <li>Researched effects of different substrates on Microbial Fuel Cell technology</li>
+                    <li>Designed and constructed microbial fuel cells using polyethylene cubes, carbon anodes, and platinum-coated cathodes</li>
+                    <li>Performed DNA extraction, PCR, gel electrophoresis to analyze bacterial communities</li>
+                    <li>Collaborated with graduate students to improve design and efficiency of Microbial Fuel Cells</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
             <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="degree-icon">🎓</div>
-                    <h3>PhD in Molecular Medicine</h3>
-                    <h4>University Vita-Salute San Raffaele</h4>
-                    <p class="education-date">May 2022</p>
-                    <p class="education-detail">Curriculum: Experimental Neurology</p>
-                    <p class="education-thesis"><strong>Dissertation:</strong> "Identification of genetic variants contributing to pain-related symptoms in familial and sporadic patients affected by peripheral neuropathy"</p>
+            
+            <div class="education-item">
+                <div class="exp-header">
+                    <h3 class="degree">PhD in Molecular Medicine</h3>
+                    <span class="date">May 2022</span>
                 </div>
-
-                <div class="education-card">
-                    <div class="degree-icon">🎓</div>
-                    <h3>MS in Bioinformatics</h3>
-                    <h4>Bharati Vidyapeeth Deemed University</h4>
-                    <p class="education-date">May 2016</p>
-                    <p class="education-thesis"><strong>Thesis:</strong> "Comparison of RNASeq analysis protocols using Cochliobolus Sativus transcriptome data"</p>
-                    <p class="education-detail">Advisor: Dr. Narendra Kadoo</p>
-                </div>
-
-                <div class="education-card">
-                    <div class="degree-icon">🎓</div>
-                    <h3>MS in Biotechnology & Enterprise</h3>
-                    <h4>University of Exeter</h4>
-                    <p class="education-date">September 2012</p>
-                    <p class="education-thesis"><strong>Thesis:</strong> "SynBIn: A synthetic biochemical 'insulator' as a new BioBrick device for synthetic biology"</p>
-                    <p class="education-detail">Advisor: Dr. Nicholas Harmer</p>
-                </div>
-
-                <div class="education-card">
-                    <div class="degree-icon">🎓</div>
-                    <h3>BS in Bio-Engineering</h3>
-                    <h4>Oregon State University</h4>
-                    <p class="education-date">June 2010</p>
-                    <p class="education-detail">Graduated Cum Laude</p>
-                    <p class="education-thesis"><strong>Thesis:</strong> "Mass Transfer Effects on Cell Growth and Protein Production"</p>
-                    <p class="education-detail">Advisor: Dr. Joseph McGuire</p>
-                </div>
+                <div class="institution">University Vita-Salute San Raffaele, Milan, Italy</div>
+                <div class="details-text">Curriculum: Experimental Neurology</div>
+                <div class="details-text"><strong>Dissertation:</strong> "Identification of genetic variants contributing to pain-related symptoms in familial and sporadic patients affected by peripheral neuropathy"</div>
             </div>
 
-            <div class="awards-section">
-                <h3>Honors and Awards</h3>
-                <div class="awards-grid">
-                    <div class="award-card">
-                        <div class="award-year">2018</div>
-                        <div class="award-title">Marie Skłodowska-Curie Early Stage Researcher</div>
-                        <p>PhD project funded under Marie Skłodowska-Curie Actions</p>
-                    </div>
-                    <div class="award-card">
-                        <div class="award-year">2006</div>
-                        <div class="award-title">Provost International Scholarship Award</div>
-                        <p>Merit-based scholarship at Oregon State University</p>
-                    </div>
+            <div class="education-item">
+                <div class="exp-header">
+                    <h3 class="degree">MS in Bioinformatics</h3>
+                    <span class="date">May 2016</span>
                 </div>
+                <div class="institution">Bharati Vidyapeeth Deemed University, India</div>
+                <div class="details-text"><strong>Thesis:</strong> "Comparison of RNASeq analysis protocols using Cochliobolus Sativus transcriptome data"</div>
+                <div class="details-text">Advisor: Dr. Narendra Kadoo</div>
             </div>
-        </div>
-    </section>
 
-    <!-- Publications Section -->
-    <section id="publications" class="section section-alt">
-        <div class="container">
+            <div class="education-item">
+                <div class="exp-header">
+                    <h3 class="degree">MS in Biotechnology & Enterprise</h3>
+                    <span class="date">September 2012</span>
+                </div>
+                <div class="institution">University of Exeter, United Kingdom</div>
+                <div class="details-text"><strong>Thesis:</strong> "SynBIn: A synthetic biochemical 'insulator' as a new BioBrick device for synthetic biology"</div>
+                <div class="details-text">Advisor: Dr. Nicholas Harmer</div>
+            </div>
+
+            <div class="education-item">
+                <div class="exp-header">
+                    <h3 class="degree">BS in Bio-Engineering</h3>
+                    <span class="date">June 2010</span>
+                </div>
+                <div class="institution">Oregon State University, USA</div>
+                <div class="details-text">Graduated Cum Laude</div>
+                <div class="details-text"><strong>Thesis:</strong> "Mass Transfer Effects on Cell Growth and Protein Production"</div>
+                <div class="details-text">Advisor: Dr. Joseph McGuire</div>
+            </div>
+        </section>
+
+        <!-- Professional Training -->
+        <section class="section">
+            <h2 class="section-title">Professional Training</h2>
+            
+            <div class="training-item">
+                <div class="exp-header">
+                    <h3 class="training-title">PhD Intern, DI.V.A.L Toscana Srl</h3>
+                    <span class="date">December 2019</span>
+                </div>
+                <ul class="details">
+                    <li>Cell culture and preparation for patch-clamp techniques</li>
+                    <li>Automated patch clamp electrophysiology operations</li>
+                    <li>Patch-clamp recording of single cells</li>
+                </ul>
+            </div>
+
+            <div class="training-item">
+                <div class="exp-header">
+                    <h3 class="training-title">PhD Intern, University of Maastricht, Neurology Department</h3>
+                    <span class="date">October 2019</span>
+                </div>
+                <ul class="details">
+                    <li>Developed R program for processing multiple annotation files</li>
+                    <li>Genetic variant prioritization in different sample types</li>
+                </ul>
+            </div>
+
+            <div class="training-item">
+                <div class="exp-header">
+                    <h3 class="training-title">PhD Intern, Fondazione IRCCS Istituto Neurologico Carlo Besta</h3>
+                    <span class="date">July 2019</span>
+                </div>
+                <ul class="details">
+                    <li>Created Whole Exome Sequencing pipeline analysis and automated using Snakemake</li>
+                    <li>Performed Polygenic Risk Score calculation using PRSice and PLINK tools</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Honors and Awards -->
+        <section class="section">
+            <h2 class="section-title">Honors and Awards</h2>
+            
+            <div class="award-item">
+                <div class="exp-header">
+                    <h3 class="award-title">Marie Skłodowska-Curie Early Stage Researcher</h3>
+                    <span class="date">2018</span>
+                </div>
+                <div class="details-text">PhD project funded under Marie Skłodowska-Curie Actions</div>
+            </div>
+
+            <div class="award-item">
+                <div class="exp-header">
+                    <h3 class="award-title">Provost International Scholarship Award</h3>
+                    <span class="date">2006</span>
+                </div>
+                <div class="details-text">Merit-based scholarship awarded to incoming students at Oregon State University</div>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="section">
             <h2 class="section-title">Selected Publications</h2>
-            <div class="publication-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="journal">Journal Publications</button>
-                <button class="filter-btn" data-filter="conference">Conference Papers</button>
+            
+            <h3 class="subsection-title">Journal Publications</h3>
+            
+            <div class="publication">
+                <div class="pub-authors"><strong>Misra, K.</strong>, Nerkar, A., Clarelli, F., Sorosina, M., & Esposito, F.</div>
+                <div class="pub-title">"Long Non-Coding RNAs in Multiple Sclerosis—Differential Expression and Functional Implications"</div>
+                <div class="pub-venue"><em>Genes</em>, 16(11), 1327 (2025)</div>
             </div>
-            <div class="publications-list">
-                <div class="publication-item" data-type="journal">
-                    <div class="pub-year">2025</div>
-                    <div class="pub-content">
-                        <h4>Long Non-Coding RNAs in Multiple Sclerosis—Differential Expression and Functional Implications</h4>
-                        <p class="pub-authors">Kaalindi Misra, Aishwary Nerkar, Ferdinando Clarelli, Melissa Sorosina, Federica Esposito</p>
-                        <p class="pub-journal">Genes 16, no. 11 (2025): 1327</p>
-                    </div>
-                </div>
 
-                <div class="publication-item" data-type="journal">
-                    <div class="pub-year">2024</div>
-                    <div class="pub-content">
-                        <h4>Broadening the genetic spectrum of painful small fibre neuropathy through whole exome study in Early-Onset cases</h4>
-                        <p class="pub-authors">Kaalindi Misra et al.</p>
-                        <p class="pub-journal">International Journal of Molecular Sciences 25, no. 13 (2024): 7248</p>
-                    </div>
-                </div>
-
-                <div class="publication-item" data-type="journal">
-                    <div class="pub-year">2024</div>
-                    <div class="pub-content">
-                        <h4>DNA Methylation in the Anti‐Mullerian Hormone Gene and the Risk of Disease Activity in Multiple Sclerosis</h4>
-                        <p class="pub-authors">Antonino Giordano, Béatrice Pignolet, Elisabetta Mascia, Ferdinando Clarelli, Melissa Sorosina, Kaalindi Misra, et al.</p>
-                        <p class="pub-journal">Annals of Neurology (2024)</p>
-                    </div>
-                </div>
-
-                <div class="publication-item" data-type="journal">
-                    <div class="pub-year">2023</div>
-                    <div class="pub-content">
-                        <h4>Ion Channel Genes in Painful Neuropathies</h4>
-                        <p class="pub-authors">Milena Ślęczkowska*, Kaalindi Misra*, Silvia Santoro, Monique M. Gerrits, Janneke GJ Hoeijmakers (*First authors)</p>
-                        <p class="pub-journal">Biomedicines 11, no. 10 (2023): 2680</p>
-                    </div>
-                </div>
-
-                <div class="publication-item" data-type="conference">
-                    <div class="pub-year">2025</div>
-                    <div class="pub-content">
-                        <h4>Age-dependent accumulation of somatic mitochondrial DNA mutations is different between multiple sclerosis progression phenotypes</h4>
-                        <p class="pub-authors">Melissa Sorosina, Kaalindi Misra, Ferdinando Clarelli, et al.</p>
-                        <p class="pub-journal">Multiple Sclerosis Journal, 2025, pp. 13-13</p>
-                    </div>
-                </div>
-
-                <div class="publication-item" data-type="conference">
-                    <div class="pub-year">2023</div>
-                    <div class="pub-content">
-                        <h4>Intrinsic-Dimension analysis for guiding dimensionality reduction and data-fusion in multi-omics data processing</h4>
-                        <p class="pub-authors">Valentina Guarino, Jessica Gliozzo, Ferdinando Clarelli, Béatrice Pignolet, Kaalindi Misra, et al.</p>
-                        <p class="pub-journal">Proceedings of the 16th International Joint Conference on Biomedical Engineering Systems and Technologies, Feb. 2023, p.243-251</p>
-                    </div>
-                </div>
+            <div class="publication">
+                <div class="pub-authors"><strong>Misra, K.</strong>, Ślęczkowska, M., Santoro, S., Gerrits, M. M., Marchi, M., Salvi, E., ... & Esposito, F.</div>
+                <div class="pub-title">"Broadening the genetic spectrum of painful small fibre neuropathy through whole exome study in Early-Onset cases"</div>
+                <div class="pub-venue"><em>International Journal of Molecular Sciences</em>, 25(13), 7248 (2024)</div>
             </div>
-            <div class="text-center">
-                <a href="#" class="btn btn-primary">View All Publications</a>
-            </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
+            <div class="publication">
+                <div class="pub-authors">Giordano, A., Pignolet, B., Mascia, E., Clarelli, F., Sorosina, M., <strong>Misra, K.</strong>, ... & Esposito, F.</div>
+                <div class="pub-title">"DNA Methylation in the Anti‐Mullerian Hormone Gene and the Risk of Disease Activity in Multiple Sclerosis"</div>
+                <div class="pub-venue"><em>Annals of Neurology</em> (2024)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Mascia, E., Nale, V., Ferrè, L., Sorosina, M., Clarelli, F., Chiodi, A., ... <strong>Misra, K.</strong>, ... & Esposito, F.</div>
+                <div class="pub-title">"Genetic contribution to medium-term disease activity in multiple sclerosis"</div>
+                <div class="pub-venue"><em>Molecular Neurobiology</em>, 1-13 (2024)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Giordano, A., Clarelli, F., Pignolet, B., Mascia, E., Sorosina, M., <strong>Misra, K.</strong>, ... & Esposito, F.</div>
+                <div class="pub-title">"Vitamin D affects the risk of disease activity in multiple sclerosis"</div>
+                <div class="pub-venue"><em>Journal of Neurology, Neurosurgery & Psychiatry</em>, 96(2), 170-176 (2025)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Guarino, V., Gliozzo, J., Clarelli, F., Pignolet, B., <strong>Misra, K.</strong>, ... & Casiraghi, E.</div>
+                <div class="pub-title">"Intrinsic-Dimension Analysis for Guiding Dimensionality Reduction in Multi-Omics Data"</div>
+                <div class="pub-venue"><em>Bioinformatics</em>, 243-251 (2023)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Ślęczkowska, M.*, <strong>Misra, K.*</strong>, Santoro, S., Gerrits, M. M., & Hoeijmakers, J. G. J. (*First authors)</div>
+                <div class="pub-title">"Ion Channel Genes in Painful Neuropathies"</div>
+                <div class="pub-venue"><em>Biomedicines</em>, 11(10), 2680 (2023)</div>
+            </div>
+
+            <h3 class="subsection-title">Conference Papers</h3>
+
+            <div class="publication">
+                <div class="pub-authors">Sorosina, M., <strong>Misra, K.</strong>, Clarelli, F., De Simone, A., Giordano, A., ... & Esposito, F.</div>
+                <div class="pub-title">"Age-dependent accumulation of somatic mitochondrial DNA mutations is different between multiple sclerosis progression phenotypes"</div>
+                <div class="pub-venue"><em>Multiple Sclerosis Journal</em>, 13-13 (2025)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Giordano, A., <strong>Misra, K.</strong>, Surano, M., Nerkar, A., Clarelli, F., ... & Esposito, F.</div>
+                <div class="pub-title">"Somatic mutations profiling of immune cells in Multiple Sclerosis lesions"</div>
+                <div class="pub-venue"><em>Multiple Sclerosis Journal</em>, 43-43 (2025)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Guarino, V., Gliozzo, J., Clarelli, F., Pignolet, B., <strong>Misra, K.</strong>, ... & Casiraghi, E.</div>
+                <div class="pub-title">"Intrinsic-Dimension analysis for guiding dimensionality reduction and data-fusion in multi-omics data processing"</div>
+                <div class="pub-venue"><em>Proceedings of the 16th International Joint Conference on Biomedical Engineering Systems and Technologies</em>, 243-251 (2023)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Sorosina, M., Santoro, S., Pignolet, B., <strong>Misra, K.</strong>, ... & Esposito, F.</div>
+                <div class="pub-title">"Analysis of miRNA profiles in active and non-active multiple sclerosis patients"</div>
+                <div class="pub-venue"><em>European Journal of Neurology</em>, 644 (2022)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors"><strong>Misra, K.</strong>, Santoro, S., Zauli, A., ... & Lauria, G.</div>
+                <div class="pub-title">"Genetic study of Italian families affected by small fibre neuropathy identified variants in predisposing pain phenotype"</div>
+                <div class="pub-venue"><em>Journal of Neurological Sciences</em>, 225 (2021)</div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-authors">Gopalan, V. & <strong>Misra, K.</strong></div>
+                <div class="pub-title">"An automated sample allocation system for multiplexed Next-Generation Sequencing"</div>
+                <div class="pub-venue"><em>Canadian Journal of Biotechnology</em>, 241 (2017)</div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="section">
             <h2 class="section-title">Technical Skills</h2>
+            
             <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">Perl</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">Oracle</span>
-                    </div>
+                <div class="skill-group">
+                    <h3 class="skill-category">Programming Languages</h3>
+                    <p class="skill-list">Python, R, Perl, C, C++, JavaScript, HTML, Oracle</p>
                 </div>
 
-                <div class="skill-category">
-                    <h3>Bioinformatics Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Snakemake</span>
-                        <span class="skill-tag">WES</span>
-                        <span class="skill-tag">WGS</span>
-                        <span class="skill-tag">RNASeq</span>
-                        <span class="skill-tag">miRNA-Seq</span>
-                        <span class="skill-tag">Single-Cell Seq</span>
-                        <span class="skill-tag">ACMG Guidelines</span>
-                        <span class="skill-tag">PRSice</span>
-                        <span class="skill-tag">PLINK</span>
-                    </div>
+                <div class="skill-group">
+                    <h3 class="skill-category">Bioinformatics Tools</h3>
+                    <p class="skill-list">Snakemake, Whole Exome Sequencing (WES), Whole Genome Sequencing (WGS), RNASeq, miRNA-Seq, Single-Cell Sequencing, ACMG Guidelines, PRSice, PLINK</p>
                 </div>
 
-                <div class="skill-category">
-                    <h3>Development Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">Bitbucket</span>
-                        <span class="skill-tag">Jenkins</span>
-                        <span class="skill-tag">Make</span>
-                        <span class="skill-tag">R Shiny</span>
-                    </div>
+                <div class="skill-group">
+                    <h3 class="skill-category">Development Tools</h3>
+                    <p class="skill-list">Git, GitHub, Bitbucket, Jenkins, Make, R Shiny, LimeSurvey</p>
                 </div>
 
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">English (Native)</span>
-                        <span class="skill-tag">Italian (Intermediate)</span>
-                    </div>
+                <div class="skill-group">
+                    <h3 class="skill-category">Data Management</h3>
+                    <p class="skill-list">Database design and management, Clinical data visualization, Pipeline automation, Version control, Quality control testing</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📧</div>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:misra.kaalindi@hsr.it">misra.kaalindi@hsr.it</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">📍</div>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Cystic Kidney Disorders Unit<br>
-                            Division of Genetics and Cell Biology<br>
-                            San Raffaele Scientific Institute<br>
-                            Via Olgettina 58 – 20132 – Milan, Italy</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:0226436229">022 643 6229</a>
-                        </div>
-                    </div>
+        <!-- Languages -->
+        <section class="section">
+            <h2 class="section-title">Languages</h2>
+            <p class="language-text"><strong>English:</strong> Native proficiency</p>
+            <p class="language-text"><strong>Italian:</strong> Intermediate listener, Novice speaker</p>
+        </section>
+
+        <!-- Professional Affiliations -->
+        <section class="section">
+            <h2 class="section-title">Professional Affiliations</h2>
+            <div class="affiliation-item">
+                <div class="exp-header">
+                    <h3 class="affiliation-title">International Association for the Study of Pain</h3>
+                    <span class="date">2021 – 2025</span>
                 </div>
+                <div class="details-text">Communication Committee Member</div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Kaalindi Ashok Misra. All rights reserved.</p>
-            <p>Built with HTML, CSS, and JavaScript</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-address">
+                <strong>Professional Address:</strong> Cystic Kidney Disorders Unit, Division of Genetics and Cell Biology,
+                San Raffaele Scientific Institute, Via Olgettina 58, 20132 Milan, Italy
+            </p>
+            <p class="footer-update">Last Updated: February 2026</p>
+        </footer>
+    </div>
 </body>
 </html>
