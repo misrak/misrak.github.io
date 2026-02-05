@@ -92,7 +92,7 @@ Add meta tags in the `<head>` section:
 <meta property="og:title" content="Kaalindi Misra - CV">
 <meta property="og:description" content="Bioinformatics Expert | Project Manager | PhD">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://your-username.github.io">
+<meta property="og:url" content="https://misrak.github.io">
 ```
 
 ## 🐛 Troubleshooting
@@ -133,12 +133,6 @@ This project is open source and available under the MIT License.
 ## 🤝 Contributing
 
 Feel free to fork this project and customize it for your own use!
-
-## 📞 Contact
-
-**Kaalindi Ashok Misra**
-- Email: misra.kaalindi@hsr.it
-- Location: Milan, Italy
 
 ---
 
