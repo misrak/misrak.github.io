@@ -299,6 +299,15 @@ a:hover {
     }
 }
 
+/* Hide Email and Contact */
+.social-link[title="Email"] {
+    display: none;
+}
+
+.contact-button {
+    display: none;
+}
+
 /* Print Styles */
 @media print {
     body {
